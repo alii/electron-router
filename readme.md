@@ -49,4 +49,8 @@ const NAVIGATION_SETUP = [
 ]
 ```
 
+##### What's `needUpdate`?
+If your page needs to make a request, or do other non "instant" activities, then you can call `needUpdate` to tell the loader file to re render the current page.
+
+
 Any question? DM me on twitter: @aabbccsmith
