@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons|Karla:400");
+body {
+  background: #212121;
+  color: rgba(255, 255, 255, 0.8);
+  font-family: "Karla", 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+}
+
+.NavigationButton {
+  -webkit-transition: all 0.2s;
+  transition: all 0.2s;
+  background: transparent;
+  color: white;
+  border: 3px solid transparent;
+  padding: 0;
+  margin: 0;
+  outline: none;
+  cursor: pointer;
+}
+
+.NavigationButton.active {
+  color: #3f51b5;
+  border-bottom: 3px solid #3f51b5;
+}
+/*# sourceMappingURL=index.css.map */
