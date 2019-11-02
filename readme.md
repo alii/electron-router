@@ -26,7 +26,7 @@ File structure is as follows
 ##### How do I add another page?
 Like this:
 
-`page.js`:
+`/src/renderer/pages/page.js`:
 ```javascript
 const { c, ct } = require("smpldm");
 let needUpdate;
@@ -40,7 +40,7 @@ module.exports = nu => {
     return render;
 }
 ```
-`renderer.js`:
+`/src/renderer/renderer.js`:
 ```javascript
 const NAVIGATION_SETUP = [
     ...

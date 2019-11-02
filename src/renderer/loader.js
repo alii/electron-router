@@ -1,7 +1,6 @@
+const { add, b, c, ct, cnp } = require("smpldm");
+const path = require("path");
 module.exports = (rootElement, firstPage) => {
-    const { add, b, c, ct, cnp } = require("smpldm");
-    const path = require("path");
-    const { remote: { app } } = require("electron")
 
     let currentPage;
     rootElement.style.transition = "all 0.2s";
