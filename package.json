@@ -12,9 +12,11 @@
     "smpldm": "^1.0.2"
   },
   "devDependencies": {
-    "electron": "^7.0.1"
+    "electron": "^7.0.1",
+    "electron-builder": "^22.1.0"
   },
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "build": "electron-builder ."
   }
 }
